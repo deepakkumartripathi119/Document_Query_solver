@@ -9,7 +9,7 @@ To know the answer to our question, we must first find out which paragraphs are 
   <li>Make sure python is installed in your system.</li>
   <li>Install openai on your system by <strong><em>"pip install openai"</em></strong></li>
   <li>Now place all the books as text files in the same directory and name them serially. For example, say you want an answer from Shakespeare's work, you may name the books <em>Shakespeare-1</em>, <em>Shakespeare-2</em>, <em>Shakespeare-3</em> and so on.</li>
-  <li>We have added a corpus for help</li>
+  <li>We have added a corpus for help.</li>
   <li>generate an execuatable by running the command <strong><em>g++ tester.cpp dict.cpp Node.cpp qna_tool.cpp search.cpp -o test</em></strong></li>
   <li>Run the execuatble by <strong><em>./test</em></strong> and then follow the instructions printed on the console.</li>
   <li>After the paragraphs are returned, run the python file by using the following command: <strong><em>python3 api_call.py API_KEY paragraph_0.txt paragraph_1.txt paragraph_2.txt query.txt</em></strong> Here top 3 paragraphs are chosen, you can choose more by simply writing more paragraph_n.txt in the command. Replace API_KEY with your openai api key.</li>
